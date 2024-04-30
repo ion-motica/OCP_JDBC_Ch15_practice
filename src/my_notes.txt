@@ -1,0 +1,26 @@
+Instructions to download and set up the database for the examples in the chapter are in:
+www.selikoff.net/ocp17
+
+https://www.selikoff.net/2022/01/22/ocp-17-book-bonus-creating-a-hsql-database-in-java-17/
+
+ChatGPT - intellij idea ultimate; how to add a .jar in the classpath?
+
+    Adding a .jar to the classpath in IntelliJ IDEA Ultimate is a straightforward process. Here's how you can do it:
+
+    Open your Project: Launch IntelliJ IDEA Ultimate and open your project.
+    Navigate to Project Structure:
+    You can access the project structure by either pressing Ctrl + Alt + Shift + S (on Windows/Linux) or Cmd + ; (on macOS).
+    Alternatively, you can go to File > Project Structure.
+    Add the .jar to Dependencies:
+    In the Project Structure dialog, navigate to Modules under the Project Settings section.
+    Select your module (usually named after your project) from the list.
+    Switch to the Dependencies tab.
+    Click on the + button and select JARs or directories.
+    Navigate to the location of your .jar file and select it.
+    Click OK to add the .jar file to your project dependencies.
+    Apply Changes:
+    After adding the .jar file, make sure to apply the changes by clicking Apply or OK in the Project Structure dialog.
+    Verify:
+    You can verify that the .jar has been successfully added to your classpath by checking the external libraries section in your project explorer.
+    That's it! The .jar file should now be included in your project's classpath and you can start using its classes and resources in your code.
+
